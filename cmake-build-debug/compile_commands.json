@@ -1,0 +1,554 @@
+[
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/bin/c++ -I/home/liu.11080/SPII/include -I/home/liu.11080/SPII/dep/googletest/googlemock/include -I/home/liu.11080/SPII/dep/googletest/googlemock -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o dep/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/liu.11080/SPII/dep/googletest/googlemock/src/gmock-all.cc",
+  "file": "/home/liu.11080/SPII/dep/googletest/googlemock/src/gmock-all.cc",
+  "output": "dep/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/bin/c++ -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googlemock/include -isystem /home/liu.11080/SPII/dep/googletest/googlemock -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o dep/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/liu.11080/SPII/dep/googletest/googlemock/src/gmock_main.cc",
+  "file": "/home/liu.11080/SPII/dep/googletest/googlemock/src/gmock_main.cc",
+  "output": "dep/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/bin/c++ -I/home/liu.11080/SPII/include -I/home/liu.11080/SPII/dep/googletest/googletest/include -I/home/liu.11080/SPII/dep/googletest/googletest -g -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o dep/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/liu.11080/SPII/dep/googletest/googletest/src/gtest-all.cc",
+  "file": "/home/liu.11080/SPII/dep/googletest/googletest/src/gtest-all.cc",
+  "output": "dep/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/bin/c++ -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o dep/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/liu.11080/SPII/dep/googletest/googletest/src/gtest_main.cc",
+  "file": "/home/liu.11080/SPII/dep/googletest/googletest/src/gtest_main.cc",
+  "output": "dep/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/node/gpugsnode.cu -o src/CMakeFiles/reduction_lib.dir/node/gpugsnode.cu.o",
+  "file": "/home/liu.11080/SPII/src/node/gpugsnode.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/node/gpugsnode.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/node/node.cu -o src/CMakeFiles/reduction_lib.dir/node/node.cu.o",
+  "file": "/home/liu.11080/SPII/src/node/node.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/node/node.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/node/pdpnode.cu -o src/CMakeFiles/reduction_lib.dir/node/pdpnode.cu.o",
+  "file": "/home/liu.11080/SPII/src/node/pdpnode.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/node/pdpnode.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/node/pgsnode.cu -o src/CMakeFiles/reduction_lib.dir/node/pgsnode.cu.o",
+  "file": "/home/liu.11080/SPII/src/node/pgsnode.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/node/pgsnode.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/gpugs.cu -o src/CMakeFiles/reduction_lib.dir/smp/gpugs.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/gpugs.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/gpugs.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/gs.cu -o src/CMakeFiles/reduction_lib.dir/smp/gs.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/gs.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/gs.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/gsHardShared.cu -o src/CMakeFiles/reduction_lib.dir/smp/gsHardShared.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/gsHardShared.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/gsHardShared.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/gsf.cu -o src/CMakeFiles/reduction_lib.dir/smp/gsf.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/gsf.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/gsf.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/gsfHardShared.cu -o src/CMakeFiles/reduction_lib.dir/smp/gsfHardShared.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/gsfHardShared.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/gsfHardShared.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/gsfHardSharedContentionHandler.cu -o src/CMakeFiles/reduction_lib.dir/smp/gsfHardSharedContentionHandler.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/gsfHardSharedContentionHandler.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/gsfHardSharedContentionHandler.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/gsfHardSharedPN.cu -o src/CMakeFiles/reduction_lib.dir/smp/gsfHardSharedPN.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/gsfHardSharedPN.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/gsfHardSharedPN.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/gsfHardSharedkPN.cu -o src/CMakeFiles/reduction_lib.dir/smp/gsfHardSharedkPN.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/gsfHardSharedkPN.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/gsfHardSharedkPN.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/gsf_contention_handler.cu -o src/CMakeFiles/reduction_lib.dir/smp/gsf_contention_handler.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/gsf_contention_handler.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/gsf_contention_handler.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/gsf_max_proposal.cu -o src/CMakeFiles/reduction_lib.dir/smp/gsf_max_proposal.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/gsf_max_proposal.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/gsf_max_proposal.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/gsf_no_contention.cu -o src/CMakeFiles/reduction_lib.dir/smp/gsf_no_contention.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/gsf_no_contention.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/gsf_no_contention.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/gsf_pool.cu -o src/CMakeFiles/reduction_lib.dir/smp/gsf_pool.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/gsf_pool.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/gsf_pool.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/hpgs.cu -o src/CMakeFiles/reduction_lib.dir/smp/hpgs.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/hpgs.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/hpgs.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/lf.cu -o src/CMakeFiles/reduction_lib.dir/smp/lf.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/lf.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/lf.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/lfDC.cu -o src/CMakeFiles/reduction_lib.dir/smp/lfDC.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/lfDC.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/lfDC.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/lfDCK.cu -o src/CMakeFiles/reduction_lib.dir/smp/lfDCK.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/lfDCK.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/lfDCK.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/lfHardShared.cu -o src/CMakeFiles/reduction_lib.dir/smp/lfHardShared.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/lfHardShared.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/lfHardShared.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/lfHardSharedDC.cu -o src/CMakeFiles/reduction_lib.dir/smp/lfHardSharedDC.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/lfHardSharedDC.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/lfHardSharedDC.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/lfHardSharedDCK.cu -o src/CMakeFiles/reduction_lib.dir/smp/lfHardSharedDCK.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/lfHardSharedDCK.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/lfHardSharedDCK.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/lfHardSharedDCKPN.cu -o src/CMakeFiles/reduction_lib.dir/smp/lfHardSharedDCKPN.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/lfHardSharedDCKPN.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/lfHardSharedDCKPN.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/lfHardSharedPN.cu -o src/CMakeFiles/reduction_lib.dir/smp/lfHardSharedPN.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/lfHardSharedPN.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/lfHardSharedPN.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/lfHardSharedScale.cu -o src/CMakeFiles/reduction_lib.dir/smp/lfHardSharedScale.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/lfHardSharedScale.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/lfHardSharedScale.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/lfTail.cu -o src/CMakeFiles/reduction_lib.dir/smp/lfTail.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/lfTail.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/lfTail.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/lfp.cu -o src/CMakeFiles/reduction_lib.dir/smp/lfp.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/lfp.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/lfp.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/pdp.cu -o src/CMakeFiles/reduction_lib.dir/smp/pdp.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/pdp.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/pdp.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/pgs.cu -o src/CMakeFiles/reduction_lib.dir/smp/pgs.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/pgs.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/pgs.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/pgs_pro_ph.cu -o src/CMakeFiles/reduction_lib.dir/smp/pgs_pro_ph.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/pgs_pro_ph.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/pgs_pro_ph.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/pgs_rej_ph.cu -o src/CMakeFiles/reduction_lib.dir/smp/pgs_rej_ph.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/pgs_rej_ph.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/pgs_rej_ph.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/smp.cu -o src/CMakeFiles/reduction_lib.dir/smp/smp.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/smp.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/smp.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/smpHardShared.cu -o src/CMakeFiles/reduction_lib.dir/smp/smpHardShared.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/smpHardShared.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/smpHardShared.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/spii.cu -o src/CMakeFiles/reduction_lib.dir/smp/spii.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/spii.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/spii.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/spii_init_ph.cu -o src/CMakeFiles/reduction_lib.dir/smp/spii_init_ph.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/spii_init_ph.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/spii_init_ph.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/spii_iter_ph.cu -o src/CMakeFiles/reduction_lib.dir/smp/spii_iter_ph.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/spii_iter_ph.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/spii_iter_ph.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -Dreduction_lib_EXPORTS -I/home/liu.11080/SPII/include -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -Xcompiler=-fPIC -x cu -c /home/liu.11080/SPII/src/smp/spii_pgs.cu -o src/CMakeFiles/reduction_lib.dir/smp/spii_pgs.cu.o",
+  "file": "/home/liu.11080/SPII/src/smp/spii_pgs.cu",
+  "output": "src/CMakeFiles/reduction_lib.dir/smp/spii_pgs.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/efficiencySplitTest.cu -o test/CMakeFiles/efficiencySplitTest.dir/smp/efficiencySplitTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/efficiencySplitTest.cu",
+  "output": "test/CMakeFiles/efficiencySplitTest.dir/smp/efficiencySplitTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/efficiencyTest.cu -o test/CMakeFiles/efficiencyTest.dir/smp/efficiencyTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/efficiencyTest.cu",
+  "output": "test/CMakeFiles/efficiencyTest.dir/smp/efficiencyTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/generatePrefListTest.cu -o test/CMakeFiles/generatePrefListTest.dir/smp/generatePrefListTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/generatePrefListTest.cu",
+  "output": "test/CMakeFiles/generatePrefListTest.dir/smp/generatePrefListTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/gpugsCorrectTest.cu -o test/CMakeFiles/gpugsCorrectTest.dir/smp/gpugsCorrectTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/gpugsCorrectTest.cu",
+  "output": "test/CMakeFiles/gpugsCorrectTest.dir/smp/gpugsCorrectTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/gpugsEfficiencyTest.cu -o test/CMakeFiles/gpugsEfficiencyTest.dir/smp/gpugsEfficiencyTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/gpugsEfficiencyTest.cu",
+  "output": "test/CMakeFiles/gpugsEfficiencyTest.dir/smp/gpugsEfficiencyTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/gsCorrectTest.cu -o test/CMakeFiles/gsCorrectTest.dir/smp/gsCorrectTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/gsCorrectTest.cu",
+  "output": "test/CMakeFiles/gsCorrectTest.dir/smp/gsCorrectTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/gsHardSharedCorrectTest.cu -o test/CMakeFiles/gsHardSharedCorrectTest.dir/smp/gsHardSharedCorrectTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/gsHardSharedCorrectTest.cu",
+  "output": "test/CMakeFiles/gsHardSharedCorrectTest.dir/smp/gsHardSharedCorrectTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/gsfContentionHandlerCorrectTest.cu -o test/CMakeFiles/gsfContentionHandlerCorrectTest.dir/smp/gsfContentionHandlerCorrectTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/gsfContentionHandlerCorrectTest.cu",
+  "output": "test/CMakeFiles/gsfContentionHandlerCorrectTest.dir/smp/gsfContentionHandlerCorrectTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/gsfContentionHandlerEfficiencyTest.cu -o test/CMakeFiles/gsfContentionHandlerEfficiencyTest.dir/smp/gsfContentionHandlerEfficiencyTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/gsfContentionHandlerEfficiencyTest.cu",
+  "output": "test/CMakeFiles/gsfContentionHandlerEfficiencyTest.dir/smp/gsfContentionHandlerEfficiencyTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/gsfCorrectTest.cu -o test/CMakeFiles/gsfCorrectTest.dir/smp/gsfCorrectTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/gsfCorrectTest.cu",
+  "output": "test/CMakeFiles/gsfCorrectTest.dir/smp/gsfCorrectTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/gsfEfficiencyNoContentionCompareTest.cu -o test/CMakeFiles/gsfEfficiencyNoContentionCompareTest.dir/smp/gsfEfficiencyNoContentionCompareTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/gsfEfficiencyNoContentionCompareTest.cu",
+  "output": "test/CMakeFiles/gsfEfficiencyNoContentionCompareTest.dir/smp/gsfEfficiencyNoContentionCompareTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/gsfEfficiencyNumProcTest.cu -o test/CMakeFiles/gsfEfficiencyNumProcTest.dir/smp/gsfEfficiencyNumProcTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/gsfEfficiencyNumProcTest.cu",
+  "output": "test/CMakeFiles/gsfEfficiencyNumProcTest.dir/smp/gsfEfficiencyNumProcTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/gsfEfficiencyPoolCompareTest.cu -o test/CMakeFiles/gsfEfficiencyPoolCompareTest.dir/smp/gsfEfficiencyPoolCompareTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/gsfEfficiencyPoolCompareTest.cu",
+  "output": "test/CMakeFiles/gsfEfficiencyPoolCompareTest.dir/smp/gsfEfficiencyPoolCompareTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/gsfEfficiencyRMWCompareTest.cu -o test/CMakeFiles/gsfEfficiencyRMWCompareTest.dir/smp/gsfEfficiencyRMWCompareTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/gsfEfficiencyRMWCompareTest.cu",
+  "output": "test/CMakeFiles/gsfEfficiencyRMWCompareTest.dir/smp/gsfEfficiencyRMWCompareTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/gsfEfficiencyTest.cu -o test/CMakeFiles/gsfEfficiencyTest.dir/smp/gsfEfficiencyTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/gsfEfficiencyTest.cu",
+  "output": "test/CMakeFiles/gsfEfficiencyTest.dir/smp/gsfEfficiencyTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/gsfHardSharedCorrectTest.cu -o test/CMakeFiles/gsfHardSharedCorrectTest.dir/smp/gsfHardSharedCorrectTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/gsfHardSharedCorrectTest.cu",
+  "output": "test/CMakeFiles/gsfHardSharedCorrectTest.dir/smp/gsfHardSharedCorrectTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/gsfHardSharedEfficiencyTest.cu -o test/CMakeFiles/gsfHardSharedEfficiencyTest.dir/smp/gsfHardSharedEfficiencyTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/gsfHardSharedEfficiencyTest.cu",
+  "output": "test/CMakeFiles/gsfHardSharedEfficiencyTest.dir/smp/gsfHardSharedEfficiencyTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/gsfMaxProposalTest.cu -o test/CMakeFiles/gsfMaxProposalTest.dir/smp/gsfMaxProposalTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/gsfMaxProposalTest.cu",
+  "output": "test/CMakeFiles/gsfMaxProposalTest.dir/smp/gsfMaxProposalTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/gsfSimpleEfficiencyTest.cu -o test/CMakeFiles/gsfSimpleEfficiencyTest.dir/smp/gsfSimpleEfficiencyTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/gsfSimpleEfficiencyTest.cu",
+  "output": "test/CMakeFiles/gsfSimpleEfficiencyTest.dir/smp/gsfSimpleEfficiencyTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/hpgsCorrectTest.cu -o test/CMakeFiles/hpgsCorrectTest.dir/smp/hpgsCorrectTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/hpgsCorrectTest.cu",
+  "output": "test/CMakeFiles/hpgsCorrectTest.dir/smp/hpgsCorrectTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/initPhaseTest.cu -o test/CMakeFiles/initPhaseTest.dir/smp/initPhaseTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/initPhaseTest.cu",
+  "output": "test/CMakeFiles/initPhaseTest.dir/smp/initPhaseTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/iterPhaseCorrectTest.cu -o test/CMakeFiles/iterPhaseCorrectTest.dir/smp/iterPhaseCorrectTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/iterPhaseCorrectTest.cu",
+  "output": "test/CMakeFiles/iterPhaseCorrectTest.dir/smp/iterPhaseCorrectTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/iterPhaseSpecialCorrectTest.cu -o test/CMakeFiles/iterPhaseSpecialCorrectTest.dir/smp/iterPhaseSpecialCorrectTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/iterPhaseSpecialCorrectTest.cu",
+  "output": "test/CMakeFiles/iterPhaseSpecialCorrectTest.dir/smp/iterPhaseSpecialCorrectTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/iterPhaseTest.cu -o test/CMakeFiles/iterPhaseTest.dir/smp/iterPhaseTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/iterPhaseTest.cu",
+  "output": "test/CMakeFiles/iterPhaseTest.dir/smp/iterPhaseTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/lfCorrectTest.cu -o test/CMakeFiles/lfCorrectTest.dir/smp/lfCorrectTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/lfCorrectTest.cu",
+  "output": "test/CMakeFiles/lfCorrectTest.dir/smp/lfCorrectTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/lfDCCorrectTest.cu -o test/CMakeFiles/lfDCCorrectTest.dir/smp/lfDCCorrectTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/lfDCCorrectTest.cu",
+  "output": "test/CMakeFiles/lfDCCorrectTest.dir/smp/lfDCCorrectTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/lfDCEfficiencyTest.cu -o test/CMakeFiles/lfDCEfficiencyTest.dir/smp/lfDCEfficiencyTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/lfDCEfficiencyTest.cu",
+  "output": "test/CMakeFiles/lfDCEfficiencyTest.dir/smp/lfDCEfficiencyTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/lfDCKCorrectTest.cu -o test/CMakeFiles/lfDCKCorrectTest.dir/smp/lfDCKCorrectTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/lfDCKCorrectTest.cu",
+  "output": "test/CMakeFiles/lfDCKCorrectTest.dir/smp/lfDCKCorrectTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/lfDCKEfficiencyTest.cu -o test/CMakeFiles/lfDCKEfficiencyTest.dir/smp/lfDCKEfficiencyTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/lfDCKEfficiencyTest.cu",
+  "output": "test/CMakeFiles/lfDCKEfficiencyTest.dir/smp/lfDCKEfficiencyTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/lfEfficiencyTest.cu -o test/CMakeFiles/lfEfficiencyTest.dir/smp/lfEfficiencyTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/lfEfficiencyTest.cu",
+  "output": "test/CMakeFiles/lfEfficiencyTest.dir/smp/lfEfficiencyTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/lfHardDCCorrectTest.cu -o test/CMakeFiles/lfHardDCCorrectTest.dir/smp/lfHardDCCorrectTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/lfHardDCCorrectTest.cu",
+  "output": "test/CMakeFiles/lfHardDCCorrectTest.dir/smp/lfHardDCCorrectTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/lfHardDCEfficiencyTest.cu -o test/CMakeFiles/lfHardDCEfficiencyTest.dir/smp/lfHardDCEfficiencyTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/lfHardDCEfficiencyTest.cu",
+  "output": "test/CMakeFiles/lfHardDCEfficiencyTest.dir/smp/lfHardDCEfficiencyTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/lfHardEfficiencyTest.cu -o test/CMakeFiles/lfHardEfficiencyTest.dir/smp/lfHardEfficiencyTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/lfHardEfficiencyTest.cu",
+  "output": "test/CMakeFiles/lfHardEfficiencyTest.dir/smp/lfHardEfficiencyTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/lfHardSharedCorrectScaleTest.cu -o test/CMakeFiles/lfHardSharedCorrectScaleTest.dir/smp/lfHardSharedCorrectScaleTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/lfHardSharedCorrectScaleTest.cu",
+  "output": "test/CMakeFiles/lfHardSharedCorrectScaleTest.dir/smp/lfHardSharedCorrectScaleTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/lfHardSharedCorrectTest.cu -o test/CMakeFiles/lfHardSharedCorrectTest.dir/smp/lfHardSharedCorrectTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/lfHardSharedCorrectTest.cu",
+  "output": "test/CMakeFiles/lfHardSharedCorrectTest.dir/smp/lfHardSharedCorrectTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/lfHardSharedDCEfficiencyTest.cu -o test/CMakeFiles/lfHardSharedDCEfficiencyTest.dir/smp/lfHardSharedDCEfficiencyTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/lfHardSharedDCEfficiencyTest.cu",
+  "output": "test/CMakeFiles/lfHardSharedDCEfficiencyTest.dir/smp/lfHardSharedDCEfficiencyTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/lfHardSharedDCKCorrectTest.cu -o test/CMakeFiles/lfHardSharedDCKCorrectTest.dir/smp/lfHardSharedDCKCorrectTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/lfHardSharedDCKCorrectTest.cu",
+  "output": "test/CMakeFiles/lfHardSharedDCKCorrectTest.dir/smp/lfHardSharedDCKCorrectTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/lfHardSharedDCKEfficiencyTest.cu -o test/CMakeFiles/lfHardSharedDCKEfficiencyTest.dir/smp/lfHardSharedDCKEfficiencyTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/lfHardSharedDCKEfficiencyTest.cu",
+  "output": "test/CMakeFiles/lfHardSharedDCKEfficiencyTest.dir/smp/lfHardSharedDCKEfficiencyTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/lfHardSharedEfficiencyScaleTest.cu -o test/CMakeFiles/lfHardSharedEfficiencyScaleTest.dir/smp/lfHardSharedEfficiencyScaleTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/lfHardSharedEfficiencyScaleTest.cu",
+  "output": "test/CMakeFiles/lfHardSharedEfficiencyScaleTest.dir/smp/lfHardSharedEfficiencyScaleTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/lfHardSharedEfficiencyTest.cu -o test/CMakeFiles/lfHardSharedEfficiencyTest.dir/smp/lfHardSharedEfficiencyTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/lfHardSharedEfficiencyTest.cu",
+  "output": "test/CMakeFiles/lfHardSharedEfficiencyTest.dir/smp/lfHardSharedEfficiencyTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/lfTailCorrectTest.cu -o test/CMakeFiles/lfTailCorrectTest.dir/smp/lfTailCorrectTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/lfTailCorrectTest.cu",
+  "output": "test/CMakeFiles/lfTailCorrectTest.dir/smp/lfTailCorrectTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/lfpCorrectTest.cu -o test/CMakeFiles/lfpCorrectTest.dir/smp/lfpCorrectTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/lfpCorrectTest.cu",
+  "output": "test/CMakeFiles/lfpCorrectTest.dir/smp/lfpCorrectTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/matrixTest.cu -o test/CMakeFiles/matrixTest.dir/smp/matrixTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/matrixTest.cu",
+  "output": "test/CMakeFiles/matrixTest.dir/smp/matrixTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/pdpCorrectTest.cu -o test/CMakeFiles/pdpCorrectTest.dir/smp/pdpCorrectTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/pdpCorrectTest.cu",
+  "output": "test/CMakeFiles/pdpCorrectTest.dir/smp/pdpCorrectTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/pdpEfficiencyTest.cu -o test/CMakeFiles/pdpEfficiencyTest.dir/smp/pdpEfficiencyTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/pdpEfficiencyTest.cu",
+  "output": "test/CMakeFiles/pdpEfficiencyTest.dir/smp/pdpEfficiencyTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/pgsCorrectTest.cu -o test/CMakeFiles/pgsCorrectTest.dir/smp/pgsCorrectTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/pgsCorrectTest.cu",
+  "output": "test/CMakeFiles/pgsCorrectTest.dir/smp/pgsCorrectTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/pgsSpecialTest.cu -o test/CMakeFiles/pgsSpecialTest.dir/smp/pgsSpecialTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/pgsSpecialTest.cu",
+  "output": "test/CMakeFiles/pgsSpecialTest.dir/smp/pgsSpecialTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/readFileTest.cu -o test/CMakeFiles/readFileTest.dir/smp/readFileTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/readFileTest.cu",
+  "output": "test/CMakeFiles/readFileTest.dir/smp/readFileTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/spiiCorrectTest.cu -o test/CMakeFiles/spiiCorrectTest.dir/smp/spiiCorrectTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/spiiCorrectTest.cu",
+  "output": "test/CMakeFiles/spiiCorrectTest.dir/smp/spiiCorrectTest.cu.o"
+},
+{
+  "directory": "/home/liu.11080/SPII/cmake-build-debug",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -I/home/liu.11080/SPII/include -isystem /home/liu.11080/SPII/dep/googletest/googletest/include -isystem /home/liu.11080/SPII/dep/googletest/googletest -g -std=c++14 \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -gencode arch=compute_80,code=sm_80 -x cu -c /home/liu.11080/SPII/test/smp/streamTest.cu -o test/CMakeFiles/streamTest.dir/smp/streamTest.cu.o",
+  "file": "/home/liu.11080/SPII/test/smp/streamTest.cu",
+  "output": "test/CMakeFiles/streamTest.dir/smp/streamTest.cu.o"
+}
+]

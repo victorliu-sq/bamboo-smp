@@ -1,0 +1,30 @@
+{
+  "env": {
+    "myDefaultIncludePath": [
+      "${workspaceFolder}",
+      "${workspaceFolder}/include"
+    ],
+    "myCompilerPath": "/usr/bin/gcc"
+  },
+  "configurations": [
+    {
+      "name": "Linux",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/include"
+      ],
+      "defines": [],
+      "cStandard": "c17",
+      "cppStandard": "gnu++14",
+      "intelliSenseMode": "linux-gcc-x64",
+      "configurationProvider": "ms-vscode.cmake-tools",
+      "compileCommands": "${workspaceFolder}/build/compile_commands.json",
+      "mergeConfigurations": true,
+      "compilerArgs": [
+        "--cuda-gpu-arch=sm_80",
+        "--no-cuda-version-check"
+      ]
+    }
+  ],
+  "version": 4
+}
