@@ -35,6 +35,17 @@ namespace bamboosmp {
     }
   }
 
+  void HybridEngine::SolveSingleGPU() {
+    Precheck();
+    if (!is_perfect_) {
+      Init();
+      ExecSingleGPU();
+      Postproc();
+    } else {
+      std::cout << "Perfect Case: Skip all subsequent skeps. " << std::endl;
+    }
+  }
+
   auto HybridEngine::GetStableMatching() const -> std::vector<int> {
     std::vector<int> result = std::vector<int>(n_);
     for (int i = 0; i < n_; i++) {

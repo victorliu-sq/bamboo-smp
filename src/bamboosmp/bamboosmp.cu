@@ -14,7 +14,7 @@ int main() {
   int thread_limit = 128;
   bamboosmp::SMP *smp;
 
-  bamboosmp::HybridEngine::CheckAndSetupCudaDevices();
+  // bamboosmp::HybridEngine::CheckAndSetupCudaDevices();
   std::string filepath;
   char input_char;
 
