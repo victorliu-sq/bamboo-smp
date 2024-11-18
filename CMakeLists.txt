@@ -3,16 +3,15 @@ cmake_minimum_required(VERSION 3.8)
 set(project_name bambooSMP)
 set(version 2024.7)
 
-project(${project_name} 
-    VERSION ${version} 
-    LANGUAGES C CXX CUDA
+project(${project_name}
+        VERSION ${version}
+        LANGUAGES C CXX CUDA
 )
 
 set(CMAKE_BUILD_TYPE Debug)
 
 set(CMAKE_CUDA_ARCHITECTURES 80)
 
-enable_testing()
 
 # both source files and test files 
 # will try to include header files from this directory
@@ -25,3 +24,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS on)
 
 # src files
 add_subdirectory(src)
+
+add_executable(test test/testbase.cpp test/testbase.h
+        test/singleGPUTest.cu)
+target_link_libraries(test bamboosmp_lib)

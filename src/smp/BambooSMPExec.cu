@@ -29,7 +29,6 @@ namespace bamboosmp {
         }
       } while (mode == 0);
     }
-    return;
   }
 
   void HybridEngine::ExecSingleGPU() {

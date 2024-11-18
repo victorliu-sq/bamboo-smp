@@ -3,19 +3,17 @@
 
 namespace bamboosmp {
     void HybridEngine::doWorkOnCPUSingleGPU() {
-        int mode;
-        int host_free_man_idx;
-        int total = n_ * (n_ - 1) / 2;
-        int host_num_unproposed;
+        const int threshold = 1;
+        const int total = n_ * (n_ - 1) / 2;
         int it = 0;
-        int threshold = 1;
-        int num_blocks = (n_ + num_threads_per_block_ - 1) / num_threads_per_block_;
 
-        CUDA_CHECK(cudaSetDevice(0));
-        cudaError_t err;
+        int host_free_man_idx;
+        int host_num_unproposed;
+
+        // CUDA_CHECK(cudaSetDevice(0));
 
         CUDA_CHECK(cudaMemcpy(host_rank_mtx_w_, device_rank_mtx_w_,
-            n_*n_*sizeof(int), cudaMemcpyDeviceToHost));
+            n_ * n_ * sizeof(int), cudaMemcpyDeviceToHost));
 
         do {
             host_free_man_idx = total;
