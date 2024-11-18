@@ -20,6 +20,8 @@ namespace bamboosmp {
             cudaHostAllocDefault));
         CUDA_CHECK(cudaMallocHost(&host_partner_rank_, n_ * sizeof(int),
             cudaHostAllocDefault));
+        CUDA_CHECK(cudaMallocHost(&temp_host_partner_rank_, n_ * sizeof(int),
+            cudaHostAllocDefault));
 
         CUDA_CHECK(cudaMallocHost(&host_rank_mtx_w_, n_*n_ * sizeof(int),
             cudaHostAllocDefault));

@@ -12,21 +12,19 @@ namespace bamboosmp {
 
         // CUDA_CHECK(cudaSetDevice(0));
 
-        CUDA_CHECK(cudaMemcpy(host_rank_mtx_w_, device_rank_mtx_w_,
-            n_ * n_ * sizeof(int), cudaMemcpyDeviceToHost));
-
         do {
             host_free_man_idx = total;
             host_num_unproposed = 0;
 
-            CUDA_CHECK(cudaMemcpy(host_partner_rank_, device_partner_rank_,
+            CUDA_CHECK(cudaMemcpy(temp_host_partner_rank_, device_partner_rank_,
                 n_ * sizeof(int), cudaMemcpyDeviceToHost));
 
             for (int w = 0; w < n_; w++) {
-                if (host_partner_rank_[w] == n_) {
+                if (temp_host_partner_rank_[w] == n_) {
                     host_num_unproposed++;
                 } else {
-                    host_free_man_idx -= host_rank_mtx_w_[host_partner_rank_[w * n_ + host_partner_rank_[w]]];
+                    int m_rank = temp_host_partner_rank_[w];
+                    host_free_man_idx -= smp_->flatten_pref_lists_w_[w * n_ + m_rank];
                 }
             }
 
