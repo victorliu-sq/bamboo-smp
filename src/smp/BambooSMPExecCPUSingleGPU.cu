@@ -7,38 +7,42 @@ namespace bamboosmp {
         const int total = n_ * (n_ - 1) / 2;
         int it = 0;
 
-        int host_free_man_idx;
-        int host_num_unproposed;
+        int unmached_id;
+        int unmatched_num;
+
+        cudaStream_t memcpy_stream;
+        cudaStreamCreate(&memcpy_stream);
 
         // CUDA_CHECK(cudaSetDevice(0));
-
-        CUDA_CHECK(cudaMemcpy(host_rank_mtx_w_, device_rank_mtx_w_,
-            n_ * n_ * sizeof(int), cudaMemcpyDeviceToHost));
-
         do {
-            host_free_man_idx = total;
-            host_num_unproposed = 0;
+            CUDA_CHECK(cudaMemcpyAsync(temp_host_partner_rank_, device_partner_rank_,
+                n_ * sizeof(int), cudaMemcpyDeviceToHost, memcpy_stream));
 
-            CUDA_CHECK(cudaMemcpy(host_partner_rank_, device_partner_rank_,
-                n_ * sizeof(int), cudaMemcpyDeviceToHost));
+            CUDA_CHECK(cudaStreamSynchronize(memcpy_stream));
 
+            unmached_id = total;
+            unmatched_num = 0;
             for (int w = 0; w < n_; w++) {
-                if (host_partner_rank_[w] == n_) {
-                    host_num_unproposed++;
+                if (temp_host_partner_rank_[w] == n_) {
+                    unmatched_num++;
                 } else {
-                    host_free_man_idx -= host_rank_mtx_w_[host_partner_rank_[w * n_ + host_partner_rank_[w]]];
+                    int m_rank = temp_host_partner_rank_[w];
+                    unmached_id -= smp_->flatten_pref_lists_w_[w * n_ + m_rank];
                 }
             }
+            std::cout << "At iteration " << it << " # of unmatched men is " << unmatched_num << std::endl;
 
-            if (host_num_unproposed <= threshold && host_num_unproposed > 0) {
+            if (unmatched_num <= threshold && unmatched_num > 0) {
                 CUDA_CHECK(cudaMallocHost(&host_prnodes_m_, n_ * n_ * sizeof(PRNode),
                     cudaHostAllocDefault));
 
-                CUDA_CHECK(cudaMemcpy(host_prnodes_m_, device_prnodes_m_,
-                    n_ * n_ * sizeof(PRNode), cudaMemcpyDeviceToHost));
+                CUDA_CHECK(cudaMemcpyAsync(host_prnodes_m_, device_prnodes_m_,
+                    n_ * n_ * sizeof(PRNode), cudaMemcpyDeviceToHost, memcpy_stream));
+
+                CUDA_CHECK(cudaStreamSynchronize(memcpy_stream));
 
                 if (atomic_host_terminate_flag_.load() == 0) {
-                    LAProcedure(host_free_man_idx);
+                    LAProcedure(unmached_id);
 
                     int expected = 0;
                     if (atomic_host_terminate_flag_.compare_exchange_strong(expected,
@@ -47,9 +51,9 @@ namespace bamboosmp {
                         int host_terminate_flag = atomic_host_terminate_flag_.load();
                     }
                 }
-                host_num_unproposed = 0;
+                unmatched_num = 0;
             }
             it++;
-        } while (host_num_unproposed != 0);
+        } while (unmatched_num != 0);
     }
 } // namespace bamboosmp

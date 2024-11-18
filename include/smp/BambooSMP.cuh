@@ -65,6 +65,7 @@ namespace bamboosmp {
 
         // for parallel algorithm on GPU
         int *host_partner_rank_;
+        int *temp_host_partner_rank_;
         int *device_partner_rank_;
         int *split_device_husband_rank_;
 
