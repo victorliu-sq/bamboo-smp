@@ -14,7 +14,6 @@ int main() {
   int thread_limit = 128;
   bamboosmp::SMP *smp;
 
-  // bamboosmp::HybridEngine::CheckAndSetupCudaDevices();
   std::string filepath;
   char input_char;
 
@@ -28,7 +27,7 @@ int main() {
     } else {
       smp = bamboosmp::readPrefListsFromJson(filepath);
       auto bamboosmp = new bamboosmp::HybridEngine(smp, thread_limit, n);
-      bamboosmp->SolveSingleGPU();
+      bamboosmp->Solve();
       bamboosmp->PrintMatching();
     }
   }

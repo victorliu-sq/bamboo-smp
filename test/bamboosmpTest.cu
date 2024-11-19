@@ -22,8 +22,6 @@
 #define WORKLOAD_TYPE 2
 
 void test_single_gpu(TestContext &ctx) {
-  int workload_type;
-
   const int n = WORKLOAD_SIZE;
   const int group_size = 5;
   const int thread_per_block = 128;
@@ -50,7 +48,7 @@ void test_single_gpu(TestContext &ctx) {
 
   auto bamboosmp =
       new bamboosmp::HybridEngine(smp, thread_per_block, n);
-  bamboosmp->SolveSingleGPU();
+  bamboosmp->Solve();
   auto start_time_bamboo = getNanoSecond();
   auto match_vec_la = bamboosmp->GetStableMatching();
   auto end_time_bamboo = getNanoSecond();

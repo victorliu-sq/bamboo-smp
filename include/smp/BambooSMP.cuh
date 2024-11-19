@@ -13,13 +13,11 @@ namespace bamboosmp {
 
         ~HybridEngine();
 
-        void SolveSingleGPU();
+        void Solve();
 
         auto GetStableMatching() const -> std::vector<int>;
 
         void PrintMatching() const;
-
-        static void CheckAndSetupCudaDevices();
 
     private:
         // Kernel Config

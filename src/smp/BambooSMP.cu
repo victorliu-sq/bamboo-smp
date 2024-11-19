@@ -15,16 +15,7 @@ namespace bamboosmp {
   __global__ void warmUpKernel() {
   }
 
-  void HybridEngine::CheckAndSetupCudaDevices() {
-    // Run 2 warm-up kernels
-    cudaSetDevice(0);
-    warmUpKernel<<<1, 1>>>();
-
-    // Ensure all operations are completed
-    cudaDeviceSynchronize();
-  }
-
-  void HybridEngine::SolveSingleGPU() {
+  void HybridEngine::Solve() {
     Precheck();
     if (!is_perfect_) {
       Init();
