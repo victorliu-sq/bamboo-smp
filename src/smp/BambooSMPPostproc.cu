@@ -9,7 +9,6 @@ namespace bamboosmp {
 void HybridEngine::Postproc() {
   std::cout << "Postprocessing ... " << std::endl;
   int *device_match;
-  int *device_partner_rank;
 
   if (atomic_host_terminate_flag_.load() == flag_gpu) {
     CUDA_CHECK(cudaSetDevice(0));

@@ -24,22 +24,11 @@ namespace bamboosmp {
     cudaDeviceSynchronize();
   }
 
-  void HybridEngine::Solve() {
-    Precheck();
-    if (!is_perfect_) {
-      Init();
-      Exec();
-      Postproc();
-    } else {
-      std::cout << "Perfect Case: Skip all subsequent skeps. " << std::endl;
-    }
-  }
-
   void HybridEngine::SolveSingleGPU() {
     Precheck();
     if (!is_perfect_) {
       Init();
-      ExecSingleGPU();
+      Exec();
       Postproc();
     } else {
       std::cout << "Perfect Case: Skip all subsequent skeps. " << std::endl;

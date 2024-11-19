@@ -72,15 +72,6 @@ namespace bamboosmp {
         CUDA_CHECK(cudaMemcpy(device_next_proposed_w_, host_next_proposed_w_,
             n_ * sizeof(int), cudaMemcpyHostToDevice));
 
-        // disable this for sinlgeGPU
-        // CUDA_CHECK(cudaSetDevice(1));
-        // CUDA_CHECK(cudaMalloc((void **)&device_num_unproposed_, sizeof(int)));
-        // CUDA_CHECK(cudaMalloc(&device_free_man_idx_, sizeof(int)));
-        // CUDA_CHECK(cudaMalloc(&split_device_husband_rank_, n_ * sizeof(int)));
-        // CUDA_CHECK(cudaMalloc(&split_device_next_proposed_w_, n_ * sizeof(int)));
-
-        // CUDA_CHECK(cudaMemcpy(split_device_husband_rank_, host_partner_rank_, n_ * sizeof(int),
-        //     cudaMemcpyHostToDevice));
     }
 
     void HybridEngine::InitPRMatrixProcedure() {

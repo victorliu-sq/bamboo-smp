@@ -28,7 +28,7 @@ int main() {
     } else {
       smp = bamboosmp::readPrefListsFromJson(filepath);
       auto bamboosmp = new bamboosmp::HybridEngine(smp, thread_limit, n);
-      bamboosmp->Solve();
+      bamboosmp->SolveSingleGPU();
       bamboosmp->PrintMatching();
     }
   }

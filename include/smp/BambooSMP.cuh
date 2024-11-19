@@ -13,8 +13,6 @@ namespace bamboosmp {
 
         ~HybridEngine();
 
-        void Solve();
-
         void SolveSingleGPU();
 
         auto GetStableMatching() const -> std::vector<int>;
@@ -30,8 +28,6 @@ namespace bamboosmp {
         void Init();
 
         void Exec();
-
-        void ExecSingleGPU();
 
         void Postproc();
 
@@ -67,13 +63,11 @@ namespace bamboosmp {
         int *host_partner_rank_;
         int *temp_host_partner_rank_;
         int *device_partner_rank_;
-        int *split_device_husband_rank_;
 
         int *device_free_man_idx_;
         int *device_num_unproposed_;
 
         int *host_next_proposed_w_;
-        int *split_device_next_proposed_w_;
         int *device_next_proposed_w_;
 
         int *device_terminate_flag_;
@@ -84,7 +78,7 @@ namespace bamboosmp {
 
         void doWorkOnCPU();
 
-        void doWorkOnCPUSingleGPU();
+        void MonitorProceture(int &unmatched_id, int &unmatched_num, cudaStream_t &stream);
 
         void InitPRMatrixProcedure();
     };
@@ -93,9 +87,4 @@ namespace bamboosmp {
                                       int num_threads_per_block, PRNode *prnodes_m,
                                       int *pref_lists_w, int *husband_rank,
                                       int *next_proposed_w, int *termiante_flag);
-
-    __global__ void IdentifyUnmatchedMan(int n, int *num_unproposed,
-                                         int *husband_rank, int *split_husband_rank,
-                                         int *free_man_idx, int *pref_lists_w,
-                                         int *next, int *split_next);
 } // namespace bamboosmp

@@ -13,29 +13,25 @@
 #include "../include/utils/generateWorkloadRandom.hpp"
 #include "../include/utils/generateWorkloadSolo.hpp"
 
+// random 0, congested 1, solo 2
+#define WORKLOAD_RANDOM 0
+#define WORKLOAD_CONGESTED 1
+#define WORKLOAD_SOLO 2
+#define WORKLOAD_TYPE 2
 
 void test_single_gpu(TestContext &ctx) {
   int workload_type;
-  const int mode_random = 0;
-  const int mode_congested = 1;
-  const int mode_clustered = 2;
-  const int mode_solo = 3;
 
   const int n = 10000;
   const int group_size = 5;
-  const int thread_limit = 128;
-  const int num_processor = n;
-
-  // workload_type = mode_random;
-  // workload_type = mode_congested;
-  workload_type = mode_solo;
+  const int thread_per_block = 128;
 
   PreferenceLists plM;
   PreferenceLists plW;
-  if (workload_type == mode_random) {
+  if (WORKLOAD_TYPE == WORKLOAD_RANDOM) {
     plM = GeneratePrefListsRandom(n, group_size);
     plW = GeneratePrefListsRandom(n, group_size);
-  } else if (workload_type == mode_congested) {
+  } else if (WORKLOAD_TYPE == WORKLOAD_CONGESTED) {
     plM = GeneratePrefListsCongested(n);
     plW = GeneratePrefListsCongested(n);
   } else {
@@ -44,14 +40,14 @@ void test_single_gpu(TestContext &ctx) {
   }
 
   auto smp = new bamboosmp::SMP(plM, plW, n);
-  auto gs = new bamboosmp::GS(smp, thread_limit, num_processor);
+  auto gs = new bamboosmp::GS(smp, thread_per_block, n);
   auto time_gs = gs->StartGS();
   auto match_vec_gs = gs->GetMatchVector();
 
   delete gs;
 
   auto bamboosmp =
-      new bamboosmp::HybridEngine(smp, thread_limit, num_processor);
+      new bamboosmp::HybridEngine(smp, thread_per_block, n);
   bamboosmp->SolveSingleGPU();
   auto start_time_bamboo = getNanoSecond();
   auto match_vec_la = bamboosmp->GetStableMatching();
