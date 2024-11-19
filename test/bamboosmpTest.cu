@@ -17,12 +17,14 @@
 #define WORKLOAD_RANDOM 0
 #define WORKLOAD_CONGESTED 1
 #define WORKLOAD_SOLO 2
+
+#define WORKLOAD_SIZE 10000
 #define WORKLOAD_TYPE 2
 
 void test_single_gpu(TestContext &ctx) {
   int workload_type;
 
-  const int n = 10000;
+  const int n = WORKLOAD_SIZE;
   const int group_size = 5;
   const int thread_per_block = 128;
 

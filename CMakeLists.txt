@@ -25,6 +25,6 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS on)
 # src files
 add_subdirectory(src)
 
-add_executable(test test/testbase.cpp test/testbase.h
-        test/singleGPUTest.cu)
-target_link_libraries(test bamboosmp_lib)
+add_executable(bamboosmpTest test/testbase.cpp test/testbase.h
+        test/bamboosmpTest.cu)
+target_link_libraries(bamboosmpTest bamboosmp_lib)
